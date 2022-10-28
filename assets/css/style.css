@@ -1,0 +1,48 @@
+.header {
+  background: #000;
+  height: 10%;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: blueviolet;
+}
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  margin-top: 50px;
+  background: rgb(224, 215, 215);
+  width: 50%;
+}
+
+input {
+  margin-bottom: 30px;
+  background: white;
+  border: none;
+}
+
+button {
+  background: blueviolet;
+  margin-bottom: 20px;
+  width: 40%;
+  height: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

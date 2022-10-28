@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <title>Front End 5th day</title>
+  </head>
+  <body>
+    <header><div class="header">XXX</div></header>
+    <main>
+      <div class="container">
+        <div class="container-flex">
+          <form id="contactForm">
+            <h1>Formulaire de contact</h1>
+            <div class="container-flex">
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                value=""
+                placeholder="John"
+              />
+              <br />
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                value=""
+                placeholder="Doe"
+              />
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value=""
+                placeholder="john.doe@gmail.com"
+              />
+              <br />
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                value=""
+                placeholder="De quoi voulez-vous me parler ?"
+              />
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Écrivez votre message ici..."
+              >
+Ceci est un message par défaut</textarea
+              >
+              <br />
+              <button type="submit">Envoyer le message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
